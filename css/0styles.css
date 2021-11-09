@@ -1,13 +1,27 @@
 body {
-  background-color: powderblue;
+  background-color: #000000;
 }
 h1 {
-  color: blue;
+  color: black;
 }
 p {
   color: red;
 }
-.section {
-	center: true;
+.title {
 	background-color: #d3dceb;
+	padding: 20px;
+}
+.login {
+	background-color: white;
+	padding: 20px;
+}
+
+.signup {
+	background-color: white;
+	padding: 20px;
+}
+
+.footer {
+	background-color: #d3dceb;
+	padding: 20px;
 }
