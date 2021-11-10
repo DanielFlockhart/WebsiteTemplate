@@ -4,24 +4,53 @@ body {
 h1 {
   color: black;
 }
-p {
-  color: red;
-}
-.title {
-	background-color: #d3dceb;
-	padding: 20px;
-}
+
+
+
+/* Forms */
 .login {
 	background-color: white;
 	padding: 20px;
+	height: 80%;
+	text-align: center;
+}
+.login button{
+	width: 100px;
 }
 
-.signup {
-	background-color: white;
-	padding: 20px;
+
+
+/* Feed */
+
+.post {
+	background-color: black;
+	height: 100px;
+}
+
+
+/* index */
+
+.header {
+	background-color: #d3dceb;
+	padding-left: 20px;
+	padding-bottom: 0px;
+}
+.content {
+	background-color: grey;
+	padding: 5px;
+	text-align: center;
 }
 
 .footer {
 	background-color: #d3dceb;
 	padding: 20px;
 }
+.navigator button{
+	width: 100px;
+	border: none;
+	background-color: aliceblue;
+}
+.navigator button:hover {
+	background-color: #4CAF50;
+	color: white;
+  }
