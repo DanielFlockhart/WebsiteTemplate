@@ -13,12 +13,16 @@ body {
 
 .center {
   margin: auto;
-  margin-top: 50%;
   width: 50%;
-  height: 50%;
+  margin-top: 250px;
 }
 #welcome {
   font-weight: 800;
+  color: white;
+}
+.links{
+  font-weight: 800;
+  font-size: 25px;
   color: white;
 }
 
