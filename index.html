@@ -10,22 +10,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
 </head>
 
-<body class="gradient">
-    <div class="container title center">
-        <h1 id ="welcome">Daniel Flockhart</h1>
+<body>
+    <div class="card">
+      <div class="card-header">
+          Navigator
+      </div>
+      <form class="card-body">
+        <button class="card-body__submit"  onclick="window.location.href='/admin'" >Login</button>
+        <button class="card-body__submit"  onclick="window.location.href='/portfolio'" >Portfolio</button>
+        <button class="card-body__submit"  onclick="window.location.href='/contact'" >Contact</button>
 
-        <div class="row justify-content-md-center">
-          <div class="col col-lg-3">
-            <h1 class="links"><button class="button-33" onclick="window.location.href='/about'">About Me</button></h1>
-          </div>
-          <div class="col col-lg-3">
-            <h1 class="links"><button class="button-33" onclick="window.location.href='/portfolio'">Portfolio</button></h1>
-          </div>
-          <div class="col col-lg-3">
-            <h1 class="links"><button class="button-33" onclick="window.location.href='/contact'" >Contact</button></h1>
-          </div>
-        </div>
-    </div>
+      </form>
+  </div>
+
     
     <script src="js/bootstrap.min.js"></script>
 </body>
